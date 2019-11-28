@@ -28,8 +28,8 @@ console.log('---------------------------------------');
 console.group('avec es10');
 console.log('depth = 1', array.flat()); //array.flat() qui est equivalent à array.flat(1);
 //const array = [1, 2, [3]];
-console.log('depth = 2', array.flat(2));
-console.log('Infinity', array.flat(Infinity)); //(récurcif) pour un tableau de lengeur n
+console.log('depth = 2', array.flat(2)); // Equivalent à array.flat().flat()
+console.log('Infinity', array.flat(Infinity)); //(récurcif) pour un tableau de lengueur n
 //const array = [1, 2, 3];
 console.groupEnd()
 
